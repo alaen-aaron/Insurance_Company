@@ -1,0 +1,32 @@
+
+**Instructions**
+- Install the Requirements: pip install -r requirements.txt
+- Then, make database migrations: python manage.py makemigrations
+- python manage.py migrate
+- And finally, run the application: python manage.py runserver
+
+For Admin Account, please create one with superuser!
+
+
+
+# Install project requirements
+pip install -r requirements.txt
+
+# Create migrations
+python manage.py makemigrations
+
+# Apply migrations
+python manage.py migrate
+
+# Create admin/superuser account
+python manage.py createsuperuser
+
+# Run the Django development server
+python manage.py runserver
+
+# Check Python version (optional)
+python --version
+
+# Check for SQLite database files (optional)
+dir *.db
+Get-ChildItem -Recurse *.db
